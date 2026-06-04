@@ -1,566 +1,582 @@
 * {
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
-    background-image: url("../img/hero-1-bg.png");
+  background-image: url("../img/hero-1-bg.png");
 }
 
 nav {
-    margin: 50px 0px 100px 0px;
+  margin: 50px 0px 100px 0px;
 }
 
 .logo {
-    width: 70%;
+  width: 70%;
 }
 
 ul,
 li {
-    padding-top: 5px;
-    margin-top: 10px;
-    display: inline;
+  padding-top: 5px;
+  margin-top: 10px;
+  display: inline;
 }
 
 ul li a {
-    padding: 10px;
-    text-decoration: none;
-    color: #b4b6c5;
+  padding: 10px;
+  text-decoration: none;
+  color: #b4b6c5;
 }
 
 li:first-child a {
-    color: rgb(79, 197, 147);
+  color: rgb(79, 197, 147);
 }
 
 button {
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    background-color: rgb(79, 197, 147);
-    color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(79, 197, 147);
+  color: white;
 }
 
 button:hover {
-    background-color: white;
-    color: rgb(79, 197, 147);
-    border: 1px solid rgb(79, 197, 147);
+  background-color: white;
+  color: rgb(79, 197, 147);
+  border: 1px solid rgb(79, 197, 147);
 }
 
 .growBuisness {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .growBuisnessLeft {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .growBuisnessLeft h1 {
-    width: 45%;
-    color: #273b5e;
-    border-right: 3px solid #273b5e;
+  width: 45%;
+  color: #273b5e;
+  border-right: 3px solid #273b5e;
 }
 
 .growBuisness img {
-    width: 90%;
+  width: 90%;
 }
 
 .growBuisness span {
-    color: rgb(79, 197, 147);
+  color: rgb(79, 197, 147);
 }
 
 .growBuisness :nth-child(4) {
-    color: #b4b6c5;
+  color: #b4b6c5;
 }
 
 .growBuisness :nth-child(3) {
-        color: #273b5e;
-        font-size: 22px;
+  color: #273b5e;
+  font-size: 22px;
 }
+
 .solutions {
-    margin: 0 300px 100px;
-    text-align: center;
+  margin: 0 300px 100px;
+  text-align: center;
 }
 
 .solutions h3 {
-    color: #273b5e;
-    font-weight: 600;
-    margin: 0 auto;
-    margin: 10px 0px;
-    text-align: center;
+  color: #273b5e;
+  font-weight: 600;
+  margin: 0 auto;
+  margin: 10px 0px;
+  text-align: center;
 }
 
 .container {
-    margin-top: 30px;
-    margin-bottom: 100px;
-    
+  margin-top: 30px;
+  margin-bottom: 100px;
+
 }
 
 .boxes {
-    padding: 15px;
-    border: 1px solid rgb(232, 233, 237);
-    border-radius: 5px;
+  padding: 15px;
+  border: 1px solid rgb(232, 233, 237);
+  border-radius: 5px;
 }
 
 .boxes:hover {
-    box-shadow: 0 10px 10px #d3d3d3;
+  box-shadow: 0 10px 10px #d3d3d3;
 }
 
 .boxes i {
-    font-size: 70px;
-    color: rgb(232, 233, 237);
+  font-size: 70px;
+  color: rgb(232, 233, 237);
 }
 
 .boxes:hover i {
-    font-size: 70px;
-    color: rgb(79, 197, 147);
+  font-size: 70px;
+  color: rgb(79, 197, 147);
 }
 
-.solutions h4, .solutions h5, .solutions p {
-    color: #273b5e;
-    font-weight:600;
+.solutions h4,
+.solutions h5,
+.solutions p {
+  color: #273b5e;
+  font-weight: 600;
 }
 
 .solutions span {
-    color: rgb(165, 172, 214);
+  color: rgb(165, 172, 214);
 }
 
 .customerSupport {
-    width: 95%;
-    padding: 50px;
-    background-color: rgb(249, 248, 253);
-    margin-bottom: 100px;
+  width: 95%;
+  padding: 50px;
+  background-color: rgb(249, 248, 253);
+  margin-bottom: 100px;
 }
 
 .customerSupport img {
-    object-fit: contain;
-    height: 80%;
-    width: 90%;
+  object-fit: contain;
+  height: 80%;
+  width: 90%;
 }
 
 .leftSide {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .customerSupportBox {
-    padding: 15px;
-    width: 250px;
-    border: 1px solid rgb(241, 241, 241);
-    border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
 }
 
-.custumerSupportRightSide h3, .custumerSupportRightSide h4 {
-    color: #273b5e;
-    font-weight: 600;
-    width: 50%;
+.custumerSupportRightSide h3,
+.custumerSupportRightSide h4 {
+  color: #273b5e;
+  font-weight: 600;
+  width: 50%;
 }
 
 .custumerSupportRightSide p {
-    color: rgb(165, 172, 214);
+  color: rgb(165, 172, 214);
 }
 
 .custumerSupportRightSide {
-    margin: 50px 0px;
+  margin: 50px 0px;
 }
 
 .innerBoxes {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .innerBoxes i {
-    color: rgb(251, 183, 12);
+  color: rgb(251, 183, 12);
 }
 
 .innerBoxes h5 {
-    display: inline;
+  display: inline;
 }
 
 .innerBoxes h6 {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 .services {
-    margin-bottom: 100px;
-    width: 60%;
+  margin-bottom: 100px;
+  width: 60%;
 
 }
 
 .services h3 {
-    text-align: center;
-    font-weight: 600;
-    color: #273b5e;
+  text-align: center;
+  font-weight: 600;
+  color: #273b5e;
 
 }
 
 .services span {
-    font-size: 20px;
-    margin-bottom: 40px;
-    color: rgb(165, 172, 214);
-    text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: rgb(165, 172, 214);
+  text-align: center;
 }
 
 .serviceBox {
-    height: 350px;
-    border: 1px solid rgba(233, 233, 233, 0.308);
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px 0px;
+  height: 350px;
+  border: 1px solid rgba(233, 233, 233, 0.308);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0px;
 }
 
 .serviceBox:hover {
-    box-shadow: 0 10px 10px #d3d3d3;
+  box-shadow: 0 10px 10px #d3d3d3;
 }
 
 .serviceBox i {
-    font-size: 25px;
-    border-radius: 50%;
-    color: white;
-    padding: 10px;
-    display: flex;
-    height: 45px;
-    width: 45px;
-    justify-content: center;
-    align-items: center;
+  font-size: 25px;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
 }
 
 .serviceBox p {
-    color: rgb(165, 172, 214);
+  color: rgb(165, 172, 214);
 }
 
 .serviceBox h6 {
-    margin: 30px 0px;
-    color: #273b5e;
+  margin: 30px 0px;
+  color: #273b5e;
 }
 
 #firstBox i {
-    background-color: rgb(91, 98, 170);
+  background-color: rgb(91, 98, 170);
 }
 
 #secondBox i {
-    background-color: rgb(251, 183, 12);
+  background-color: rgb(251, 183, 12);
 }
 
 #secondBox a {
-    text-decoration: none;
-    color: #273b5e;
+  text-decoration: none;
+  color: #273b5e;
 }
 
 #thirdBox i {
-    background-color: #db504b;
+  background-color: #db504b;
 }
 
 #fourthBox i {
-    background-color: #1bbc9d;
+  background-color: #1bbc9d;
 }
 
 #fifthBox i {
-    background-color: #6c757e;
+  background-color: #6c757e;
 }
 
 #sixtBox i {
-    background-color: #273b5d;
+  background-color: #273b5d;
 }
 
 #firstLine {
-    width: 95%;
-    margin: 0 auto;
-    color: rgb(165, 172, 214);
+  width: 95%;
+  margin: 0 auto;
+  color: rgb(165, 172, 214);
 }
 
 .askedQuestions {
-    padding: 50px;
-    margin: 0px 200px 100px 300px;
+  padding: 50px;
+  margin: 0px 200px 100px 300px;
 }
 
 #emptyAskedQuestions {
-    height: 30px;
-    margin: 15px 0px;
-    border-left: 3px solid #1bbc9d;
+  height: 30px;
+  margin: 15px 0px;
+  border-left: 3px solid #1bbc9d;
 }
 
 .questionsLeftSide {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-.questionsLeftSide h3, .questionsLeftSide h6 {
-    color: #273b5e;
-    font-weight: 600;
+.questionsLeftSide h3,
+.questionsLeftSide h6 {
+  color: #273b5e;
+  font-weight: 600;
 }
 
 .questionsLeftSide p {
-    color: rgb(165, 172, 214);
+  color: rgb(165, 172, 214);
 }
 
 .questionsRightSide img {
-    width: 100%;
+  width: 100%;
 }
 
 #accordionExample {
-    width: 70%;
+  width: 70%;
 }
 
 .accordion-item {
-    border: none;
+  border: none;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: white;
+  background-color: white;
 }
 
 .accordion-button::after {
-    content: "+";       /* това показва + вместо стрелка */
-    font-size: 1.5rem;
-    color:  #1bbc9d;
-    background-image: none !important;
-    transform: none !important;
+  content: "+";
+  font-size: 1.5rem;
+  color: #1bbc9d;
+  background-image: none !important;
+  transform: none !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-    content: "–"; 
+  content: "–";
 }
 
 .ourPrices {
-    padding: 100px 300px;
-    margin-bottom: 100px;
-    width: 95%;
-    background-color: rgb(249, 248, 253);
+  padding: 100px 300px;
+  margin-bottom: 100px;
+  width: 95%;
+  background-color: rgb(249, 248, 253);
 
 }
 
 .ourPrices h3 {
-    font-weight: 600;
-    text-align: center;
-    color: #273b5e;
+  font-weight: 600;
+  text-align: center;
+  color: #273b5e;
 }
 
 .ourPrices span {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(165, 172, 214);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(165, 172, 214);
 }
 
 .boxPrices {
-    height: 450px;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 50px;
-    padding: 30px;
-    width: 100%;
-    background-color: white;
+  height: 450px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  width: 100%;
+  background-color: white;
 }
 
 .boxPrices hr {
-    width: 60%;
-    margin: 10px auto;
-    color: rgb(165, 172, 214);
+  width: 60%;
+  margin: 10px auto;
+  color: rgb(165, 172, 214);
 }
 
 .boxPrices p {
-    color: rgb(165, 172, 214);
+  color: rgb(165, 172, 214);
 }
 
 .boxPrices h3 {
-     font-size: 40px;
+  font-size: 40px;
 }
 
 .boxPrices ul li {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .sqare {
-    height: 7px;
-    width: 7px;
-    background-color: rgb(79, 197, 147);
+  height: 7px;
+  width: 7px;
+  background-color: rgb(79, 197, 147);
 }
 
 .boxPrices button {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .buisness {
-    color: rgb(165, 172, 214);
-    background-color: rgb(39, 59, 94)
+  color: rgb(165, 172, 214);
+  background-color: rgb(39, 59, 94)
 }
 
-.buisness h5, .buisness hr, .buisness h3 {
-    color: white;
+.buisness h5,
+.buisness hr,
+.buisness h3 {
+  color: white;
 }
 
 .gray {
-    background-color: rgb(165, 172, 214);
+  background-color: rgb(165, 172, 214);
 }
+
 .ourClient h3 {
-    font-weight: 600;
-    color: #273b5e;
+  font-weight: 600;
+  color: #273b5e;
 }
 
 .ourClient {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.ourClient h4, .ourClient p {
-    text-align: center;
+
+.ourClient h4,
+.ourClient p {
+  text-align: center;
 }
 
 .ourClient h4 {
-    font-weight: 500;
-    color: #273b5e;
+  font-weight: 500;
+  color: #273b5e;
 }
+
 .ourClient hr {
-    width: 120px;
-    height: 2px;
-    color:  rgb(79, 197, 147);
+  width: 120px;
+  height: 2px;
+  color: rgb(79, 197, 147);
 }
 
 .info {
-    width: 50%;
+  width: 50%;
 }
 
 .ourClient img {
-   margin: 20px 0px; 
+  margin: 20px 0px;
 }
 
-.ourClient span, p {
-    color: rgb(165, 172, 214);
+.ourClient span,
+p {
+  color: rgb(165, 172, 214);
 }
 
 .greenDecoration {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
-.greenDecoration .box1, .greenDecoration .box2 {
-    height: 7px;
-    width: 7px;
-    background-color:  rgba(79, 197, 148, 0.651);
+.greenDecoration .box1,
+.greenDecoration .box2 {
+  height: 7px;
+  width: 7px;
+  background-color: rgba(79, 197, 148, 0.651);
 }
 
 .greenDecoration .box3 {
-    height: 7px;
-    width: 20px;
-    background-color: rgb(79, 197, 147);
+  height: 7px;
+  width: 20px;
+  background-color: rgb(79, 197, 147);
 }
 
 .projectOverTheWorld {
-    width: 70%;
+  width: 70%;
 }
 
 .project {
-    margin-bottom: 100px;
-    background-color: rgb(249, 248, 253);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
+  margin-bottom: 100px;
+  background-color: rgb(249, 248, 253);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
 
 }
 
 .projectLeft {
-    width: 100%;
+  width: 100%;
 }
 
 .projectLeft span {
-    color: rgb(79, 197, 147);
-    font-size: 20px;
+  color: rgb(79, 197, 147);
+  font-size: 20px;
 }
 
 .projectLeft h2 {
-    color: #273b5e;
+  color: #273b5e;
 }
+
 .projectLeft form input {
-    padding: 10px;
-    border: 1px solid rgb(228, 230, 238);
-    border-radius: 5px;
-    width: 70%;
-    color: rgb(165, 172, 214);
+  padding: 10px;
+  border: 1px solid rgb(228, 230, 238);
+  border-radius: 5px;
+  width: 70%;
+  color: rgb(165, 172, 214);
 }
 
 .projectRight {
-    width: 70%;
+  width: 70%;
 }
 
 .projectRight img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .companies {
-    opacity: 0.5;
-    display: flex;
-    justify-content: space-between;
+  opacity: 0.5;
+  display: flex;
+  justify-content: space-between;
 }
+
 .contacts {
-    background-color: #273b5d;
-    width: 95%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  background-color: #273b5d;
+  width: 95%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .information {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .informationBox {
-    align-content: center;
-    height: 100%;
-    width: 24%;
+  align-content: center;
+  height: 100%;
+  width: 24%;
 }
 
-.informationBox img{
-    width: 40%;
+.informationBox img {
+  width: 40%;
 }
 
 .informationBox h6 {
-    color: white;
-    margin: 20px 0px;
+  color: white;
+  margin: 20px 0px;
 }
 
 .informationBox span {
-    color: rgb(79, 197, 147);
+  color: rgb(79, 197, 147);
 }
 
 .otherLinks h6 {
-    color: white; 
+  color: white;
 }
 
 .otherLinks ul li {
-    display: list-item;
-    list-style-type: square;
-    margin: 0px 0px 0px 15px;
-    color: rgb(165, 172, 214);
+  display: list-item;
+  list-style-type: square;
+  margin: 0px 0px 0px 15px;
+  color: rgb(165, 172, 214);
 }
 
 .informationBox iframe {
-    border-radius: 5px;
-    width: 300px;
-    height: 200px;
-    opacity: 0.5;
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  opacity: 0.5;
 
 }
- .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-top: 1px solid  rgba(165, 172, 214, 0.164);;
-    height: 50px;
-    width: 95%;
-    background-color: #273b5d;
- }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-top: 1px solid rgba(165, 172, 214, 0.164);
+  height: 50px;
+  width: 95%;
+  background-color: #273b5d;
+}
 
 .copyright p {
-    margin: 0px;
+  margin: 0px;
 }
